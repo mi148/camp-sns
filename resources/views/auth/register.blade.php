@@ -6,6 +6,8 @@
 
         <x-jet-validation-errors class="mb-4" />
 
+            <div class="text-center">ログイン</div>
+
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
