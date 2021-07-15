@@ -21,6 +21,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/campgear/create', function () {
-    return view('campgear.create');
+Route::get('/campgear/home', function () {
+    return view('campgear.home');
 });

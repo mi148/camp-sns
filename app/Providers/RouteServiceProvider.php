@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/campgear/create';
+    public const HOME = '/campgear/home';
 
     /**
      * The controller namespace for the application.
